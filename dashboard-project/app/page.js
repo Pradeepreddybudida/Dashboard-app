@@ -1,6 +1,6 @@
 // app/page.js
 import Link from 'next/link';
-import styles from './Homepage.module.css'; // Adjust the path as needed
+import styles from './HomePage.module.css'; // Adjust the path as needed
 
 export default function HomePage() {
   return (
