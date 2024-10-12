@@ -58,7 +58,7 @@ const RootLayout = ({ children }) => {
                       <li className="nav-item">
                         <button onClick={handleLogout} className="nav-link btn btn-link">Logout</button>
                       </li>
-                    </>
+                    
                 
                 
                 </ul>
