@@ -1,0 +1,22 @@
+/* globals.css */
+
+/* Define light and dark mode colors */
+:root {
+  --color-background: #ffffff; /* Light mode background */
+  --color-text: #000000; /* Light mode text color */
+  --color-lead: #555555; /* Light mode lead text color */
+  --color-primary: #007bff; /* Light mode primary button color */
+  --color-primary-hover: #0056b3; /* Light mode primary button hover color */
+  --color-secondary: #f8f9fa; /* Light mode secondary button color */
+  --color-secondary-hover: #e2e6ea; /* Light mode secondary button hover color */
+}
+
+.dark {
+  --color-background: #121212; /* Dark mode background */
+  --color-text: #ffffff; /* Dark mode text color */
+  --color-lead: #cccccc; /* Dark mode lead text color */
+  --color-primary: #1e88e5; /* Dark mode primary button color */
+  --color-primary-hover: #1565c0; /* Dark mode primary button hover color */
+  --color-secondary: #333333; /* Dark mode secondary button color */
+  --color-secondary-hover: #444444; /* Dark mode secondary button hover color */
+}
