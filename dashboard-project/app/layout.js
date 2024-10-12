@@ -50,8 +50,8 @@ const RootLayout = ({ children }) => {
               <Link href="/" className="navbar-brand">Home</Link>
               <div className="collapse navbar-collapse">
                 <ul className="navbar-nav ml-auto">
-                  {user ? (
-                    <>
+
+                  
                       <li className="nav-item">
                         <Link href="/dashboard" className="nav-link">Dashboard</Link>
                       </li>
@@ -59,16 +59,8 @@ const RootLayout = ({ children }) => {
                         <button onClick={handleLogout} className="nav-link btn btn-link">Logout</button>
                       </li>
                     </>
-                  ) : (
-                    <>
-                      <li className="nav-item">
-                        <Link href="/login" className="nav-link">Login</Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/signup" className="nav-link">Signup</Link>
-                      </li>
-                    </>
-                  )}
+                
+                
                 </ul>
               </div>
               <ThemeToggleButton />
