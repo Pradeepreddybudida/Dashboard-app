@@ -77,20 +77,3 @@ The app is hosted on Vercel. You can check it out here : https://dashboardapp-ta
 ## Setup Instructions
 For more information on how to set up and run the project locally, check the **Getting Started** section above.
 
-## Approach and Challenges
-In this section, I discuss how I built the dashboard, what challenges I faced, and some ideas for improvements.
-
-**Development Approach**
-1. **Starting the Project**: Created a new Next.js application and set up Supabase for user authentication and data storage.
-2. **Building the Dashboard**: Designed the main dashboard with different widgets and added charts using Recharts.
-3. **Managing Data**: Set up a Supabase database to store the dashboard data and created API routes in Next.js to manage data operations.
-4. **Making It Responsive**: Ensured the dashboard works well on mobile devices for easier navigation.
-   
- **Challenges Faced**
-1. **User Authentication**: Debugging the session and protecting routes took significant time.
-2. **Responsive Design**: Making each page responsive for all types of screens and adjusting the grid layout in the dashboard needed extensive testing.
-
-## Potential Improvements
-1. **Better User Experience**: Adding more interactive features could make the dashboard even more engaging.
-2. **Server-Side Rendering**: Improving performance and SEO by implementing server-side rendering for initial data loading.
-
